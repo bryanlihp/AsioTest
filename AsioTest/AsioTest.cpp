@@ -17,6 +17,7 @@ int GetWaitTime(int nMin, int nMax)
 
 void Test1()
 {
+	//Feature implemented
 	//test1_1 Hotfix applied
 	boost::asio::io_service svc1_1;
 	// up to this line
@@ -949,8 +950,8 @@ int _tmain(int argc, _TCHAR* argv[])
 	stream_lock();
 	std::cout << "Main thread ID=" << boost::this_thread::get_id() << std::endl;
 	stream_unlock();
-//	Test1();
-//	Test2();
+//	Test1();	// Feature 1 (with new implementation) added
+	Test2();	// Feature1 Added
 //	Test3();
 //	Test4();
 //	Test5();
