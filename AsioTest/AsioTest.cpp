@@ -33,10 +33,10 @@ void Test2()
 
 void Test3()
 {
-	boost::asio::io_service svc;
+	boost::asio::io_service svc_3; //hotfix test3 applied.
 	for (int i = 0; i < 42; i++)
 	{
-		svc.poll();
+		svc_3.poll();
 		std::cout << "Counter" << i << std::endl;
 	}
 }
