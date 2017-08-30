@@ -43,6 +43,7 @@ void Test3()
 
 void Test4()
 {
+	//hotfix test4 applied.
 	boost::asio::io_service svc;
 	boost::asio::io_service::work work(svc);
 	for (int i = 0; i < 42; i++)
