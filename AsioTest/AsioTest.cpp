@@ -17,7 +17,7 @@ int GetWaitTime(int nMin, int nMax)
 
 void Test1()
 {
-	//test1_1 HOTFIX APPLIED
+	//test1_1 Hotfix applied
 	boost::asio::io_service svc1_1;
 	// up to this line
 	svc1_1.run();
