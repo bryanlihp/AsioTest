@@ -18,9 +18,9 @@ int GetWaitTime(int nMin, int nMax)
 void Test1()
 {
 	//test1_1 HOTFIX APPLIED
-	boost::asio::io_service svc;
+	boost::asio::io_service svc1_1;
 	// up to this line
-	svc.run();
+	svc1_1.run();
 	std::cout << "Do you reckon this line displays?" << std::endl; // run returns immediately as there is no work to do
 }
 void Test2()
