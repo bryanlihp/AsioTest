@@ -17,6 +17,7 @@ int GetWaitTime(int nMin, int nMax)
 
 void Test1()
 {
+	//Test1 hot fix applied
 	boost::asio::io_service svc;
 	svc.run();
 	std::cout << "Do you reckon this line displays?" << std::endl; // run returns immediately as there is no work to do
