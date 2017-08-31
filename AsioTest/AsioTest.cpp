@@ -949,8 +949,8 @@ int _tmain(int argc, _TCHAR* argv[])
 	stream_lock();
 	std::cout << "Main thread ID=" << boost::this_thread::get_id() << std::endl;
 	stream_unlock();
-	Test1();	// feature1 added
-	Test2();	// Test2 is also for feature1
+	Test1();	//feature1 added
+	Test2();	//this is also for feature1
 	Test3();
 //	Test4();
 //	Test5();
