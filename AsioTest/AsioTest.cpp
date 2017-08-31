@@ -949,9 +949,9 @@ int _tmain(int argc, _TCHAR* argv[])
 	stream_lock();
 	std::cout << "Main thread ID=" << boost::this_thread::get_id() << std::endl;
 	stream_unlock();
-//	Test1();
-//	Test2();
-//	Test3();
+	Test1();	//feature1 added
+	Test2();	//this is also for feature1
+	Test3();
 //	Test4();
 //	Test5();
 //	Test6();
@@ -970,7 +970,7 @@ int _tmain(int argc, _TCHAR* argv[])
 //	Test19(&WorkerThread_16);	// Timer and strand
 //	NetworkClientTest(&WorkerThread_16);
 //	NetworkServerTest(&WorkerThread_16);
-	Test20();
+//	Test20();
 	return 0;
 }
 
